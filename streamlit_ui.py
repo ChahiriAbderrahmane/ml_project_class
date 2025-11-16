@@ -8,8 +8,8 @@ import numpy as np
 # ============================================================================
 
 # Noms des fichiers (à adapter à votre environnement de production !)
-MODEL_FILEPATH = '/model/lightgbm_revenue_model.joblib'
-ENCODERS_FILEPATH = '/model/label_encoders.joblib'
+MODEL_FILEPATH = 'model/lightgbm_revenue_model.joblib'
+ENCODERS_FILEPATH = 'model/label_encoders.joblib'
 
 # Mise en cache du chargement pour accélérer l'application Streamlit
 @st.cache_resource
